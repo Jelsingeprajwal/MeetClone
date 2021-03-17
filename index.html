@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style-meet.css">
+
+  <title>Google Drive</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <a href="#">
+
+        <img
+          src="./components/google_meet_horizontal_wordmark_2020q4_1x_icon_124_40_2373e79660dabbf194273d27aa7ee1f5.png"
+          alt="Google_Meet_Logo">
+        <span>
+          <!-- meet -->
+        </span>
+      </a>
+    </div>
+
+    <div class="option">
+      <span id="date">
+      </span>
+      <span class="material-icons mi">
+        help_outline
+      </span>
+      <span class="material-icons mi">
+        feedback
+      </span>
+      <span class="material-icons mi">
+        settings
+      </span>
+      <a href="#" class="app-menu">
+        <img src="./components/menu.svg" alt="">
+      </a>
+      <a href="#" id="profile-pic">
+        <img src="./components/profile-pic.jpg" alt="profile pic">
+      </a>
+    </div>
+  </header>
+  <div class="container">
+    <div class="left">
+      <h1>Premium video meetings.</h1>
+      <h1>Now free for everyone.</h1>
+      <div class="para">
+        <p>We re-engineered the service we built for secure business meetings, Google Meet,to make it free and available
+          for all.</p>
+      </div>
+      <div class="action">
+        <button type="button" id="new-meeting">
+          <span class="material-icons">
+            video_call
+          </span>
+          <i> New meeting </i>
+        </button>
+
+        <form action="">
+          <label for="">
+            <span class="material-icons">
+              keyboard
+            </span>
+            <input type="text" placeholder="Enter a code or link">
+          </label>
+        </form>
+        <button type="submit" id="join">Join</button>
+      </div>
+    </div>
+    <!-- <hr> -->
+    <div class="right">
+      <div class="slider">
+        <div class="slider_clip">
+          <button id="slider_left_btn" type="button">
+            <span class="material-icons">
+              keyboard_arrow_left
+            </span>
+          </button>
+          <img src="https://www.gstatic.com/meet/user_edu_get_a_link_light_90698cd7b4ca04d3005c962a3756c42d.svg" alt="">
+          <button id="slider_right_btn" type="button">
+
+            <span class="material-icons">
+              keyboard_arrow_right
+            </span>
+          </button>
+
+          <h1>Get a link you can share</h1>
+          <p>Click <b></b>New meeting</b> to get a link you can send to people you wamt to meet with</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
