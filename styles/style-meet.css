@@ -6,6 +6,8 @@
   padding: 0;
   font-family: "Roboto", sans-serif;
   user-select: none;
+  background-color: black;
+  color: wheat;
 }
 hr {
   color: #01796b;
